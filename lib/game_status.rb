@@ -50,6 +50,9 @@ def over?(board)
 end
 
 def winner(board)
+  #solution -> if winning_combo = won?(board) 
+  # =>              board[winning_combo.first]
+  #=>            end end
  win = won?(board)
  win ? board[win[0]] : nil
 end
